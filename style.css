@@ -163,7 +163,7 @@ aside {
 }
 
 
-/*********** Responsivo ***********/
+/*********** Responsivo - Inicio ***********/
 
 @media screen and (max-width: 414px) {
     .main-title h1 {
@@ -185,4 +185,20 @@ aside {
         margin-right: 25%;
         margin-top: 50%;
     }
+}
+
+/*********** Sobre Mim ***********/
+
+.C-sobre {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 0px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 400px;
+    height: auto;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px;
 }
