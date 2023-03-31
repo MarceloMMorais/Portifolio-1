@@ -202,3 +202,69 @@ aside {
     height: auto;
     box-shadow: 4px 4px 4px #858585, 4px 4px 4px;
 }
+
+.Sobre-mim h1 {
+    text-align: center;
+    font-size: 70px;
+    font-family: "Hanuman";
+    font-weight: bold;
+}
+
+.Sobre-mim h4 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: normal;
+    font-weight: bold;
+    font-family: "Inria Sans";
+}
+
+.Sobre-mim span {
+    color: aqua;
+}
+
+.Sobre-mim p {
+    text-align: justify;
+    margin-top: 25px;
+    font-family: "Inria Sans";
+    font-size: 25px;   
+}
+
+.Sobre-mim button {
+    background-color: aqua;
+    margin-left: 35%;
+    margin-top: 30px;
+    padding: 10px 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px #858585, 4px 4px 4px;
+    transition-duration: .9s;
+}
+
+.Sobre-mim button:hover {
+    color: aqua;
+    background: transparent;
+    transition: 0.8s;
+}
+
+/*********** Responsivo - Sobre mim ***********/
+
+@media screen and (max-width: 414px) {
+    .image img{
+        width: 350px;
+        height: auto;
+    }
+
+    .Sobre-mim p{
+        font-size: 20px;
+        width: 500px;
+        padding: 15px;
+        text-align: center;
+    }
+}
+
+
+/*********** Serviços ***********/
